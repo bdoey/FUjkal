@@ -8,8 +8,8 @@ st.markdown("\n Do you like this guy?")
 
 if st.button('Nope!'):
     st.write("We don't either!")
-else:
-    st.button('Yup!')
+
+if st.button('Yup!'):
     st.write('Goodbye, loser.')
 
 # Display an image from a URL
