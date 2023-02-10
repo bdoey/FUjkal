@@ -8,3 +8,8 @@ st.markdown("# This fuckin guy...")
 # Display an image from a URL
 image_url = "https://github.com/bdoey/FUjkal/blob/master/SCR-20221215-spp-2v1.jpg?raw=true"
 st.image(image_url, width=700)
+
+if st.button('Say hello'):
+    st.write('Why hello there')
+else:
+    st.write('Goodbye')
