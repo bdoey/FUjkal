@@ -11,7 +11,7 @@ if st.button('Nope!'):
 
 if st.button('Yup!'):
     st.write('Goodbye, loser.')
-    time.sleep(2)
+#     time.sleep(2)
     st.balloons()
 
 # Display an image from a URL
